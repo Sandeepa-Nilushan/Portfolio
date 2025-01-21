@@ -45,6 +45,27 @@ body.loaded #preloader {
   transform: translateX(0);
 }
 
+/* Button styles */
+.download-btn {
+  background-color: #18d26e; /* Default green color */
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.464);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.download-btn:hover {
+  background-color: #0d00ff; /* Darker green color */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  color: white; /* Ensure text color stays white */
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
