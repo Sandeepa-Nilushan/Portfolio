@@ -118,18 +118,18 @@ h6 {
  * ------------------------------------------------------------------- */
  .mailtoui-modal {
   --mailtoui-modal-box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08), 0 8px 8px rgba(0, 0, 0, 0.08);
-  --mailtoui-modal-head-bgcolor       : var(--color-gray-18);
+  --mailtoui-modal-head-bgcolor       : rgb(41, 44, 40);
   --mailtoui-modal-head-title-color   : white;
-  --mailtoui-modal-body-bgcolor       : var(--color-gray-11);
-  --mailtoui-button-bgcolor           : rgba(255, 255, 255, .04);
+  --mailtoui-modal-body-bgcolor       : rgb(96, 96, 96);
+  --mailtoui-button-bgcolor           : rgba(255, 255, 255, 0.04);
   --mailtoui-button-text-color        : white;
-  --mailtoui-button-bgcolor-hover     : var(--color-1-dark);
+  --mailtoui-button-bgcolor-hover     : rgb(114, 244, 103);
   --mailtoui-button-text-color-hover  : black;
-  --mailtoui-button-text-size         : 16px;
-  --mailtoui-email-address-bgcolor    : var(--color-gray-13);
-  --mailtoui-email-address-text-color : var(--text-color);
-  --border-radius                     : 0;
-  font-family                         : var(--font-1);
+  --mailtoui-button-text-size         : 18px;
+  --mailtoui-email-address-bgcolor    : rgb(96, 96, 96);
+  --mailtoui-email-address-text-color : rgb(255, 255, 255);
+  --border-radius                     : 15px;
+  font-family                         : "Open Sans";
   background-color                    : var(--color-body);
   color                               : white;
 }
@@ -162,14 +162,14 @@ h6 {
   font        : 0/0 a;
   text-shadow : none;
   color       : transparent;
-  font-size   : 32px;
+  font-size   : 40px;
   font-weight : 300;
-  color       : rgba(255, 255, 255, 0.5);
+  color       : rgb(255, 255, 255);
 }
 
 .mailtoui-modal-close:hover,
 .mailtoui-modal-close:focus {
-  color       : white;
+  color       : rgba(255, 0, 0, 0.847);
   font-weight : 300;
 }
 
@@ -216,8 +216,8 @@ h6 {
 .mailtoui-button-copy-clicked,
 .mailtoui-button-copy-clicked:hover,
 .mailtoui-button-copy-clicked:focus {
-  background-color : #1F9D55;
-  color            : white;
+  background-color : #1f7b9d;
+  color            : rgb(255, 255, 255);
 }
 
 .mailtoui-email-address {
@@ -229,7 +229,7 @@ h6 {
 }
 
 .mailtoui-brand a {
-  color : rgba(255, 255, 255, 0.12);
+  color : rgb(48, 244, 110);
 }
 
 .mailtoui-brand a:focus,
