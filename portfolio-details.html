@@ -81,6 +81,13 @@
                   <strong>Project URL:</strong>
                   <a href="#" id="project-url" target="_blank">Visit Project</a>
                 </li>
+                <li>
+                  <strong>Project Description:</strong><br />
+                  <span
+                    id="project-description"
+                    style="text-align: justify; display: block"
+                  ></span>
+                </li>
               </ul>
             </div>
           </div>
@@ -113,6 +120,7 @@
           client: urlParams.get("client"),
           date: urlParams.get("date"),
           url: urlParams.get("url"),
+          description: urlParams.get("description"),
           images: urlParams.get("images")
             ? urlParams.get("images").split(",")
             : [],
@@ -126,6 +134,8 @@
       document.getElementById("project-client").innerText = params.client;
       document.getElementById("project-date").innerText = params.date;
       document.getElementById("project-url").href = params.url;
+      document.getElementById("project-description").innerText =
+        params.description; // Fix: Use innerText for span
 
       // Dynamically insert images
       const imagesContainer = document.getElementById("project-images");
