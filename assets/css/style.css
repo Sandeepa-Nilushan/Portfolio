@@ -23,7 +23,9 @@
   align-items: center;
   z-index: 9999;
   flex-direction: column;
-  color: #eaff00;
+  color: #51ff00;
+  font-weight: bold;
+  font-size: 22px;
   font-family: 'Courier New', Courier, monospace;
 }
 
